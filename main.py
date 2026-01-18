@@ -1,4 +1,4 @@
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 # from langchain.llms import OpenAI
 from langchain_openai import OpenAI
 import streamlit as st
@@ -6,7 +6,7 @@ import streamlit as st
 #llm  = OpenAI(openai_api_key= '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')
 # dotenv를 안쓸 때, 이렇게 해도 됨.
 
-load_dotenv()
+# load_dotenv()
 
 # llm=OpenAI()
 # result= llm.predict('hi!')
